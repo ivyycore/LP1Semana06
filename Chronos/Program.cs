@@ -6,7 +6,9 @@ namespace Chronos
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            Stopwatch chrono1 = new Stopwatch();
+            Stopwatch chrono2 = new Stopwatch();
+            
         }
     }
 }
