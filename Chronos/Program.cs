@@ -13,6 +13,11 @@ namespace Chronos
             Thread.Sleep(500);
             chrono2.Start();
             Thread.Sleep(250);
+            chrono1.Stop();
+            chrono2.Stop();
+
+            Console.WriteLine($"{chrono1.Elapsed.TotalSeconds:f4}");
+            Console.WriteLine($"{chrono2.Elapsed.TotalSeconds:f4}"); 
         }
     }
 }
