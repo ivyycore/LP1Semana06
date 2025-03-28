@@ -20,5 +20,12 @@ namespace MyRPG
         }
         
         public void SetEnemyInRoom(int rooms, string enemy)
+        {
+
+        }
+        public void PrintEnemies()
+        {
+            
+        }
     }
 }
