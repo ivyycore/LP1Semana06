@@ -3,12 +3,8 @@ using Humanizer;
 
 namespace MyRPG
 {
-    public class Program
+    public class Enemy
     {
-        private static void Main(string[] args)
-        {
-            Console.WriteLine("Hello LP1!");
-        }
         private string name;
         private float health;
         private float shield;
@@ -18,6 +14,10 @@ namespace MyRPG
             this.name = name;
             health = 100;
             shield = 0;
+        }
+        private static void Main(string[] args)
+        {
+            Console.WriteLine("Hello LP1!");
         }
     }
 }
