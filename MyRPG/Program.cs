@@ -5,6 +5,13 @@ namespace MyRPG
 {
     public class Program
     {
+        [Flags]
+        enum Hardness
+        {
+            Easy ,
+            Normal ,
+            Hard ,
+        };
         private static void Main()
         {
             GameLevel gl = new GameLevel(104, Hardness.Normal);
@@ -46,17 +53,6 @@ namespace MyRPG
             this.name = name;
             health = 100;
             shield = 0;
-        }
-        private static void Main(string[] args)
-        {
-            Console.WriteLine("Hello LP1!");
-        }
-        [Flags]
-        enum Hardness
-        {
-            Easy ,
-            Normal ,
-            Hard ,
         }
     }
 }
