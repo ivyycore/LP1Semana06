@@ -58,10 +58,16 @@ namespace MyRPG
     public class GameLevel
     {
         public GetNumRooms(int GetNumRooms);
-        public Hardness(string Hardness);
-        private static void SetEnemyInRoom()
         {
-
+            return GetNumRooms
+        }
+        public Hardness(string Hardness);
+        {
+            return Hardness
+        }
+        private static void SetEnemyInRoom(int rooms, string difficulty)
+        {
+            
         }
     }
 }
