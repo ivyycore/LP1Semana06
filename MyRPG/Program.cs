@@ -42,28 +42,4 @@ namespace MyRPG
             // Room XCIV: Riker
         }
     }
-    public class Enemy
-    {
-        private string name;
-        private float health;
-        private float shield;
-
-        public Enemy(string name)
-        {   
-            this.name = name;
-            health = 100;
-            shield = 0;
-        }
-    }
-    public class GameLevel
-    {
-        private Hardness dif;
-        public Hardness GetHardness()
-        private int rooms;
-        public int GetNumRooms()
-        private static void SetEnemyInRoom(int GetNumRooms, string Hardness)
-        {
-            GameLevel gl = new GameLevel(104, Hardness.Normal);
-        }
-    }
 }
