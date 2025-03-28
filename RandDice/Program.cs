@@ -12,6 +12,7 @@ namespace RandDice
             {
                 total += value.Next(1,7);
             }
+            Console.WriteLine(total);
         }
     }
 }
