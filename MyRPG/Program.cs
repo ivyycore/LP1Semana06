@@ -54,9 +54,14 @@ namespace MyRPG
             health = 100;
             shield = 0;
         }
+    }
     public class GameLevel
     {
-        private static void SetEnemyInRoom();
-    }
+        public GetNumRooms(int GetNumRooms);
+        public Hardness(string Hardness);
+        private static void SetEnemyInRoom()
+        {
+
+        }
     }
 }
